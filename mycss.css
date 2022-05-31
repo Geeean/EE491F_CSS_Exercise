@@ -1,0 +1,72 @@
+/*id*/
+#titles{
+    background-color: mediumslateblue;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+/* classes */
+.aboutme{
+    color: black;
+    text-align: justify;
+}
+
+.orange{
+    color:wheat
+}
+
+.whitebox{
+    background-color: black;
+}
+
+/* Element */
+p {
+    color: brown;
+}
+
+/* Attribute */
+a[href="https://www.youtube.com/"] {
+    background-color: orange;
+}
+
+/* Attribute w/ value */
+a[target=_blank] {
+    background-color: lightblue;
+}
+
+/* Ancestor_Selectors, Decendent_Selectors */
+details p {
+    background-color: orange;
+}
+
+/* parent_selector > cild selector */
+
+div > p {
+    background-color: lightseagreen;
+}
+
+/* Selector 1, Selector 2 */
+h4, section {
+    background-color: white;
+}
+
+/* Text Colors */
+h3 {
+    color:beige
+}
+
+/* Background color */
+body {
+    background-color: grey;
+}
+
+/* Box Model */
+main{
+    background-color: white;
+    width: 700px;
+    border: 15px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+
